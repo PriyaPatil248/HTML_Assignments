@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <title>Items</title>
+           <style>
+            section{
+                border: 1px solid red;
+                padding: 10px;
+                display: flex;
+            }
+            section>div{
+                height: 200px;
+                width: 200px;
+                background-color: rosybrown;
+                color: white;
+                margin: 5px;
+                font-size: 20px;
+            }
+            #Div02{
+                flex-shrink: 4;
+            }
+            #Div04{
+                flex-grow: 5;
+            }
+           </style>
+    </head>
+    <body>
+        <section>
+            <div>1</div>
+            <div id="Div02">2</div>
+            <div>3</div>
+            <div id="Div03">4</div>
+            <div>5</div>
+        </section>
+    </body>
+</html>
